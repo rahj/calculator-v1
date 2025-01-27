@@ -41,7 +41,7 @@ public class Calculator implements ActionListener
     public Calculator()
     {
         try {
-            //UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -93,6 +93,25 @@ public class Calculator implements ActionListener
         buttonClear.addActionListener(this);
         buttonPoint.addActionListener(this);
         buttonEquals.addActionListener(this);
+
+        //removed the focus paint
+        button0.setFocusPainted(false);
+        button1.setFocusPainted(false);
+        button2.setFocusPainted(false);
+        button3.setFocusPainted(false);
+        button4.setFocusPainted(false);
+        button5.setFocusPainted(false);
+        button6.setFocusPainted(false);
+        button7.setFocusPainted(false);
+        button8.setFocusPainted(false);
+        button9.setFocusPainted(false);
+        buttonMultiplication.setFocusPainted(false);
+        buttonDivision.setFocusPainted(false);
+        buttonAddition.setFocusPainted(false);
+        buttonSubstraction.setFocusPainted(false);
+        buttonClear.setFocusPainted(false);
+        buttonPoint.setFocusPainted(false);
+        buttonEquals.setFocusPainted(false);
     }
 
     @Override

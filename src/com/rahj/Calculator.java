@@ -9,29 +9,30 @@ package com.rahj;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import com.rahj.CalculatorButton;
 
 public class Calculator implements ActionListener
 {
     private JFrame frame;
     private JPanel rootPanel;
-    private JButton buttonMultiplication;
-    private JButton buttonDivision;
-    private JButton buttonAddition;
-    private JButton buttonSubstraction;
-    private JButton buttonClear;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button0;
-    private JButton buttonEquals;
+    private CalculatorButton buttonMultiplication;
+    private CalculatorButton buttonDivision;
+    private CalculatorButton buttonAddition;
+    private CalculatorButton buttonSubstraction;
+    private CalculatorButton buttonClear;
+    private CalculatorButton button7;
+    private CalculatorButton button8;
+    private CalculatorButton button9;
+    private CalculatorButton button4;
+    private CalculatorButton button5;
+    private CalculatorButton button6;
+    private CalculatorButton button1;
+    private CalculatorButton button2;
+    private CalculatorButton button3;
+    private CalculatorButton button0;
+    private CalculatorButton buttonEquals;
     private JLabel labelOutput;
-    private JButton buttonPoint;
+    private CalculatorButton buttonPoint;
     private String label;
     private int labelLength = 10;
     private String labelValue;
@@ -94,24 +95,6 @@ public class Calculator implements ActionListener
         buttonPoint.addActionListener(this);
         buttonEquals.addActionListener(this);
 
-        //removed the focus paint
-        button0.setFocusPainted(false);
-        button1.setFocusPainted(false);
-        button2.setFocusPainted(false);
-        button3.setFocusPainted(false);
-        button4.setFocusPainted(false);
-        button5.setFocusPainted(false);
-        button6.setFocusPainted(false);
-        button7.setFocusPainted(false);
-        button8.setFocusPainted(false);
-        button9.setFocusPainted(false);
-        buttonMultiplication.setFocusPainted(false);
-        buttonDivision.setFocusPainted(false);
-        buttonAddition.setFocusPainted(false);
-        buttonSubstraction.setFocusPainted(false);
-        buttonClear.setFocusPainted(false);
-        buttonPoint.setFocusPainted(false);
-        buttonEquals.setFocusPainted(false);
     }
 
     @Override

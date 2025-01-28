@@ -35,7 +35,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="1dddc" class="javax.swing.JButton" binding="buttonMultiplication">
+          <component id="1dddc" class="com.rahj.CalculatorButton" binding="buttonMultiplication">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="40" height="40"/>
@@ -45,7 +45,7 @@
               <text value="x"/>
             </properties>
           </component>
-          <component id="92690" class="javax.swing.JButton" binding="buttonDivision">
+          <component id="92690" class="com.rahj.CalculatorButton" binding="buttonDivision">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="40" height="40"/>
@@ -55,7 +55,7 @@
               <text value="/"/>
             </properties>
           </component>
-          <component id="6f637" class="javax.swing.JButton" binding="buttonAddition">
+          <component id="6f637" class="com.rahj.CalculatorButton" binding="buttonAddition">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="40" height="40"/>
@@ -65,7 +65,7 @@
               <text value="+"/>
             </properties>
           </component>
-          <component id="eaf8d" class="javax.swing.JButton" binding="buttonSubstraction">
+          <component id="eaf8d" class="com.rahj.CalculatorButton" binding="buttonSubstraction">
             <constraints>
               <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="40" height="40"/>
@@ -75,7 +75,7 @@
               <text value="-"/>
             </properties>
           </component>
-          <component id="b74dc" class="javax.swing.JButton" binding="buttonClear">
+          <component id="b74dc" class="com.rahj.CalculatorButton" binding="buttonClear">
             <constraints>
               <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="40" height="40"/>
@@ -98,7 +98,7 @@
           <title-color color="-4473925"/>
         </border>
         <children>
-          <component id="b60f5" class="javax.swing.JButton" binding="button7">
+          <component id="b60f5" class="com.rahj.CalculatorButton" binding="button7">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -108,7 +108,7 @@
               <text value="7"/>
             </properties>
           </component>
-          <component id="a2e17" class="javax.swing.JButton" binding="button8">
+          <component id="a2e17" class="com.rahj.CalculatorButton" binding="button8">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -118,7 +118,7 @@
               <text value="8"/>
             </properties>
           </component>
-          <component id="f0fda" class="javax.swing.JButton" binding="button9">
+          <component id="f0fda" class="com.rahj.CalculatorButton" binding="button9">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -138,7 +138,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="f4cd0" class="javax.swing.JButton" binding="button4">
+          <component id="f4cd0" class="com.rahj.CalculatorButton" binding="button4">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -148,7 +148,7 @@
               <text value="4"/>
             </properties>
           </component>
-          <component id="8dc89" class="javax.swing.JButton" binding="button5">
+          <component id="8dc89" class="com.rahj.CalculatorButton" binding="button5">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -158,7 +158,7 @@
               <text value="5"/>
             </properties>
           </component>
-          <component id="b4536" class="javax.swing.JButton" binding="button6">
+          <component id="b4536" class="com.rahj.CalculatorButton" binding="button6">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -178,7 +178,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="8cb33" class="javax.swing.JButton" binding="button1">
+          <component id="8cb33" class="com.rahj.CalculatorButton" binding="button1">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -188,7 +188,7 @@
               <text value="1"/>
             </properties>
           </component>
-          <component id="2bbb4" class="javax.swing.JButton" binding="button2">
+          <component id="2bbb4" class="com.rahj.CalculatorButton" binding="button2">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -198,7 +198,7 @@
               <text value="2"/>
             </properties>
           </component>
-          <component id="7bee8" class="javax.swing.JButton" binding="button3">
+          <component id="7bee8" class="com.rahj.CalculatorButton" binding="button3">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -218,7 +218,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="90bc2" class="javax.swing.JButton" binding="button0">
+          <component id="90bc2" class="com.rahj.CalculatorButton" binding="button0">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -228,7 +228,7 @@
               <text value="0"/>
             </properties>
           </component>
-          <component id="ca2d3" class="javax.swing.JButton" binding="buttonEquals">
+          <component id="ca2d3" class="com.rahj.CalculatorButton" binding="buttonEquals">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
@@ -238,7 +238,7 @@
               <text value="="/>
             </properties>
           </component>
-          <component id="c05c0" class="javax.swing.JButton" binding="buttonPoint">
+          <component id="c05c0" class="com.rahj.CalculatorButton" binding="buttonPoint">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="45" height="45"/>
